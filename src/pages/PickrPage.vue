@@ -10,7 +10,7 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
 import Pickr from "@simonwep/pickr";
-// import "@simonwep/pickr/dist/themes/classic.min.css";
+import "@simonwep/pickr/dist/themes/classic.min.css";
 
 const hex = ref("#ff0000");
 const rgb = ref("");
